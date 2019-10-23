@@ -15,7 +15,7 @@ class Haya < Formula
    depends_on :arch =>  :intel
 
    bottle do
-      root_url "https://github.com/mixbytes/haya/releases/download/v0.3.1/haya-0.3.0.mojave.bottle.tar.gz"
+      root_url "https://github.com/mixbytes/haya/releases/download/v0.3.1"
       sha256 "90f72909e7257cce45e50580d0b3cb55dddf9645b1547cd823b6cffff9903d78" => :mojave
    end
    def install
